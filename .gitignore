@@ -6,3 +6,5 @@ local.properties
 *.iml
 .kotlin/
 /markers/out/
+machine-ar-prompt.md
+CLAUDE.md

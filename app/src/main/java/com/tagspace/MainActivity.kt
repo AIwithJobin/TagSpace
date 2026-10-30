@@ -3,11 +3,12 @@ package com.tagspace
 import android.os.Bundle
 import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
-import androidx.compose.material3.Text
+import com.tagspace.ar.ArScreen
+import com.tagspace.marker.DEMO_MARKERS
 
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContent { Text("TagSpace") }
+        setContent { ArScreen(DEMO_MARKERS) }
     }
 }
